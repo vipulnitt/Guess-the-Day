@@ -6,112 +6,112 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
         android:text="@string/textview"
         android:textColor="#FA0101"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="195dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="242dp"
+        android:layout_height="63dp"
         android:text="@string/textview2"
         android:textColor="#200157"
         android:textColorHint="#28016E"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="125dp"
-        android:layout_height="55dp"
+        android:layout_width="144dp"
+        android:layout_height="117dp"
         android:text=""
         android:textColor="#F80000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.634" />
+        app:layout_constraintVertical_bias="0.789" />
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="122dp"
-        android:layout_height="193dp"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        android:layout_width="157dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.126">
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:checked="false"
             android:textColor="#00158C" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="37dp"
             android:checked="false"
             android:textColor="#00158C" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:checked="false"
             android:textColor="#00158C" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:checked="false"
             android:textColor="#00158C" />
     </RadioGroup>
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="104dp"
-        android:layout_height="41dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="157dp"
-        android:layout_height="39dp"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
         android:fontFamily="sans-serif-black"
-        android:text="TextView"
         android:textColor="#0913ED"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.379" />
 
     <TextView
         android:id="@+id/textView7"
@@ -121,9 +121,10 @@
         android:textColor="#00116E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintVertical_bias="0.766" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
